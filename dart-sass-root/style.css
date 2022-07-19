@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+}
+
+header {
+  background: url("../dart-sass-root/assets/photos/image-header.jpg");
+  background-size: cover;
+}
+
+.nav {
+  display: none;
+  color: white;
+  margin: 10px;
+  background: none;
+  border: none;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Barlow", sans-serif;
+}
+.nav .contact {
+  color: black;
+  font-family: "Fraunces", serif;
+  background-color: white;
+  border-radius: 1em;
+  padding: 5%;
+  margin: auto;
+}
+@media screen and (min-width: 480px) {
+  .nav {
+    display: block;
+  }
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  display: block;
+  font-family: "Fraunces", serif;
+  align-items: center;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
